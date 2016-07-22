@@ -1,0 +1,185 @@
+{
+
+"documentCreationInfo":
+     {
+          "fileInfos": [
+        {
+        "documentURL": {
+                "mimeType": "",
+                "name": "",
+                "url": ""
+        },
+        "libraryDocumentId": "",
+        "libraryDocumentName": "",
+        "transientDocumentId": ""
+        }
+],
+"name": "",
+"recipientSetInfos": [
+        {
+        "recipientSetMemberInfos": [
+                {
+                "email": "",
+                "fax": "",
+                "securityOptions": [
+                        {
+                        "authenticationMethod": "",
+                        "phoneInfos": [
+                                {
+                                "phone": "",
+                                "countryCode": ""
+                                }
+                        ],
+                        "password": ""
+                        }
+                ]
+                }
+        ],
+        "recipientSetRole": "",
+        "privateMessage": "",
+        "securityOptions": [
+                {
+                "authenticationMethod": "",
+                "phoneInfos": [
+                        {
+                        "phone": "",
+                        "countryCode": ""
+                        }
+                ],
+                "password": ""
+                }
+        ],
+        "signingOrder": 0
+        }
+],
+"signatureType": "",
+"callbackInfo": "",
+"ccs": [
+        ""
+],
+"daysUntilSigningDeadline": 0,
+"externalId": {
+        "group": "",
+        "id": "",
+        "namespace": ""
+},
+"formFieldLayerTemplates": [
+        {
+        "documentURL": {
+                "mimeType": "",
+                "name": "",
+                "url": ""
+        },
+        "libraryDocumentId": "",
+        "libraryDocumentName": "",
+        "transientDocumentId": ""
+        }
+],
+"formFields": [
+        {
+        "locations": [
+                {
+                "height": 0,
+                "left": 0,
+                "pageNumber": "int",
+                "top": 0,
+                "width": 0
+                }
+        ],
+        "name": "",
+        "alignment": "",
+        "anyOrAll": "",
+        "backgroundColor": "",
+        "borderColor": "",
+        "borderStyle": "",
+        "borderWidth": "float",
+        "calculatedExpression": "",
+        "conditions": [
+                {
+                "value": "",
+                "whenFieldLocationIndex": "int",
+                "whenFieldName": ""
+                }
+        ],
+        "contentType": "",
+        "defaultValue": "",
+        "displayFormat": "",
+        "displayFormatType": "",
+        "displayLabel": "",
+        "fontColor": "",
+        "fontName": "",
+        "fontSize": "float",
+        "format": "",
+        "formatData": "",
+        "hidden": false,
+        "hiddenOptions": [
+                ""
+        ],
+        "inputType": "",
+        "masked": false,
+        "maskingText": "",
+        "maxLength": 0,
+        "maxNumberValue": 0,
+        "minLength": 0,
+        "minNumberValue": 0,
+        "radioCheckType": "",
+        "readOnly": false,
+        "recipientIndex": 0,
+        "regularExpression": "",
+        "required": false,
+        "showOrHide": "",
+        "specialErrMsg": "",
+        "specialFormula": "",
+        "tooltip": "",
+        "visibleOptions": [
+                ""
+        ]
+        }
+],
+"locale": "",
+"mergeFieldInfo": [
+        {
+        "defaultValue": "",
+        "fieldName": ""
+        }
+],
+"message": "",
+"postSignOptions": {
+        "redirectUrl": "",
+        "redirectDelay": 0
+},
+"reminderFrequency": "",
+"securityOptions": {
+        "externalPassword": "",
+        "internalPassword": "",
+        "kbaProtection": "",
+        "openPassword": "",
+        "passwordProtection": "",
+        "protectOpen": false,
+        "webIdentityProtection": ""
+},
+"signatureFlow": “”,   // POSSIBLE VALUES ARE “SENDER_SIGNATURE_NOT_REQUIRED' or 'SENDER_SIGNS_LAST' or 'SENDER_SIGNS_FIRST' or 'SEQUENTIAL' or 'PARALLEL' or 'SENDER_SIGNS_ONLY"
+"vaultingInfo": {
+        "enabled": false
+     }
+
+},
+
+"options": {
+
+"authoringRequested": false,
+"autoLoginUser": false,
+"locale": "",
+"noChrome": false,
+"sendThroughWeb": false,
+"sendThroughWebOptions": {
+        "fileUploadOptions": {
+        "libraryDocument": false,
+        "localFile": false,
+        "webConnectors": false
+        }
+}
+
+}
+
+}
