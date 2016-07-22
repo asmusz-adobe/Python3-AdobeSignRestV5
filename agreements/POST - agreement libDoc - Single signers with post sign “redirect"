@@ -1,7 +1,7 @@
 POST /api/rest/v5/agreements HTTP/1.1
 Host: api.na1.echosign.com
-Access-Token: 3AAABLblqZhD40q1dI3ZrJ69IJxKD6LeD7mt4ND4EJGJnZuGPeM-GjIr9Fww1BkeLcBEy7TdPN0Dzlp95Zly0I2qZ2I_CtSjU
-x-api-user: email:skaboy71@gmail.com
+Access-Token: 3AAABLblqZhD40q1dI3ZrJ***your access token here***zlp95Zly0I2qZ2I_CtSjU
+x-api-user: email:senderemail@domain.com
 Content-Type: application/json
 Cache-Control: no-cache
 Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
@@ -13,7 +13,7 @@ Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
            {
                "recipientSetMemberInfos": [
                    {
-                       "email": "echosmusz1@sonic.net"
+                       "email": "recipient1@domain.com"
                    }
                ],
                "recipientSetRole": "SIGNER"
@@ -21,7 +21,7 @@ Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
         ],
        "postSignOptions":
            {
-               "redirectUrl": "https://aaronsmusz.com",
+               "redirectUrl": "https://somere-directpagehere.html",
                "redirectDelay": 0
 
            },
@@ -32,7 +32,7 @@ Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
                 "libraryDocumentId": "3AAABLblqZhAQflkXT-23WifxnTQWtRUsjEOE5crGP07O8pB_K0OfpOCeZPhUqwBGMQbQpxqfFL5A7xmQHN637a7yxOZN2p8p"
             }
        ],
-               "name": "MSA No-Line"
+               "name": "Agreement Name Here"
 
    }
 }
@@ -41,5 +41,5 @@ Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
 RESPONSE will look like:
 
 {
-  "agreementId": "3AAABLblqZhAzTD7sJFYqz0q_uHg-FqCtzUnb8HmC0ZC70LeWXcPwCXJbGOtgJDq56dO0cfS4unOkZosJ-SqJzSzFCoxhyaF9"
+  "agreementId": "3AAABLblqZhAzTD7sJFYqz0q_u***youragreement ID here***OtgJDq56dO0cfS4unOkZosJ-SqJzSzFCoxhyaF9"
 }
