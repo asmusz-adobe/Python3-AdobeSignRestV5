@@ -1,3 +1,10 @@
+POST /api/rest/v5/agreements HTTP/1.1
+Host: api.na1.echosign.com
+Access-Token: 3AAABLblqZhD40q1dI3ZrJ69IJx***Your access token or integration key goes here***eLcBEy7TdPN0Dzlp95Zly0I2qZ2I_CtSjU
+x-api-user: email:senderemail@yourdomain.com
+Content-Type: application/json
+Cache-Control: no-cache
+
 {
 
 "documentCreationInfo":
