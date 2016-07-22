@@ -1,0 +1,45 @@
+POST /api/rest/v5/agreements HTTP/1.1
+Host: api.na1.echosign.com
+Access-Token: 3AAABLblqZhD40q1dI3ZrJ69IJxKD6LeD7mt4ND4EJGJnZuGPeM-GjIr9Fww1BkeLcBEy7TdPN0Dzlp95Zly0I2qZ2I_CtSjU
+x-api-user: email:skaboy71@gmail.com
+Content-Type: application/json
+Cache-Control: no-cache
+Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
+
+{
+   "documentCreationInfo": {
+       "signatureType": "ESIGN",
+       "recipientSetInfos": [
+           {
+               "recipientSetMemberInfos": [
+                   {
+                       "email": "echosmusz1@sonic.net"
+                   }
+               ],
+               "recipientSetRole": "SIGNER"
+           }
+        ],
+       "postSignOptions":
+           {
+               "redirectUrl": "https://aaronsmusz.com",
+               "redirectDelay": 0
+
+           },
+       "signatureFlow": "SENDER_SIGNATURE_NOT_REQUIRED",
+       "message": "Please Sign this from us!",
+       "fileInfos": [
+           {
+                "libraryDocumentId": "3AAABLblqZhAQflkXT-23WifxnTQWtRUsjEOE5crGP07O8pB_K0OfpOCeZPhUqwBGMQbQpxqfFL5A7xmQHN637a7yxOZN2p8p"
+            }
+       ],
+               "name": "MSA No-Line"
+
+   }
+}
+
+
+RESPONSE will look like:
+
+{
+  "agreementId": "3AAABLblqZhAzTD7sJFYqz0q_uHg-FqCtzUnb8HmC0ZC70LeWXcPwCXJbGOtgJDq56dO0cfS4unOkZosJ-SqJzSzFCoxhyaF9"
+}
