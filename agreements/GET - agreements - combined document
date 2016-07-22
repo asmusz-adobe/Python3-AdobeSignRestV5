@@ -1,0 +1,4 @@
+GET /api/rest/v5/agreements/3AAABLblqZhCiUiE8Ed9PX1i0J0N_ei8gDjeD *** Your signed agreement ID here *** 6P_XiYfdBfYdU3250cTeYuavLfSrCJ2kCUssurOt/combinedDocument HTTP/1.1
+Host: api.na1.echosign.com
+Access-Token: 3AAABLblqZhDnXxfLc7MOZjKHsyk*** Your access token here ***5YKXNJ79mhZDE5v5xaTPnyyJUOD7N24m2G
+Cache-Control: no-cache

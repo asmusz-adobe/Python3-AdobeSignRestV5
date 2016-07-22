@@ -1,0 +1,40 @@
+POST /api/rest/v5/agreements HTTP/1.1
+Host: api.na1.echosign.com
+Access-Token: 3AAABLblqZhBVHvzZn0sx4d6ky2X*** Your access token here ***sWderM1BCzDeDvCr10uEsJJ7qbg2Qy0fTK8M
+x-user-email: senderemail@domain.com
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+   "documentCreationInfo": {
+       "signatureType": "ESIGN",
+       "recipientSetInfos": [
+           {
+               "recipientSetMemberInfos": [
+                   {
+                       "email": “signer1@domain.com"
+                   }
+               ],
+               "recipientSetRole": "SIGNER",
+               "signingOrder":"1"
+           },
+           {
+               "recipientSetMemberInfos": [
+                   {
+                       "email": "signer2@domain.com"
+                   }
+               ],
+               "recipientSetRole": "SIGNER",
+               "signingOrder":"1"
+           }
+        ],
+       "signatureFlow": "SENDER_SIGNATURE_NOT_REQUIRED",
+       "message": "Please Sign this from us!",
+       "fileInfos": [
+           {
+                "libraryDocumentId": "2AAABLblqZhBBqN2EJssYmY*** Your lib doc ID here ***4KTOYMsmvxaQ_XukmXpuIHg*"
+            }
+       ],
+       "name": "MSA No-Line"
+   }
+}
