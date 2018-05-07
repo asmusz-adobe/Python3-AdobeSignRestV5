@@ -11,4 +11,3 @@ This was written for Python 3.x (currently 3.6)
 Before using this you should have:
 * Adobe Sign [developers account](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
 * Access token from oAuth process or "integration key"
-
