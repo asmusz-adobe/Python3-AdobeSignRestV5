@@ -44,3 +44,4 @@ def cancel_agreement(token_string, agreement_id, sender_email, comment = 'This n
     cancel_response = requests.put(url, headers=headers, data=json.dumps(data_c)).json()
     print(cancel_response)  #.json()
     return cancel_response
+
