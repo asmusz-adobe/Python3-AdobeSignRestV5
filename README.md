@@ -6,7 +6,7 @@ These leverage the python ["requests" module](http://docs.python-requests.org/en
 
 This was written for Python 3.x (currently 3.6)
 
-## requirements
+## Requirements
 
 Before using this you should have:
 * Adobe Sign [developers account](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
