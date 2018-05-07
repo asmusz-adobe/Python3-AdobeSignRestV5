@@ -4,7 +4,6 @@ Access-Token: 3AAABLblqZhD40q1dI3ZrJ***your access token here***zlp95Zly0I2qZ2I_
 x-api-user: email:senderemail@domain.com
 Content-Type: application/json
 Cache-Control: no-cache
-Postman-Token: fd3ce1b0-3418-fb41-1ef5-26d6ac6fa81b
 
 {
    "documentCreationInfo": {
