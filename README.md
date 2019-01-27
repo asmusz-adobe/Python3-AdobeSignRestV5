@@ -4,7 +4,7 @@ Examples of connecting to [Adobe Sign REST V5](https://secure.na1.echosign.com/p
 
 These leverage the python ["requests" module](http://docs.python-requests.org/en/master/) which should be installed via pip.
 
-This was written for Python 3.x (currently 3.6)
+This was written for Python [3.x](https://www.python.org/download/releases/3.0/) (currently 3.6)
 
 ## Requirements
 
