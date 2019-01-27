@@ -21,7 +21,7 @@ from pprint import pprint
 
 def cancel_agreement(token_string, agreement_id, sender_email, comment = 'This needs to be cancelled', notify_tf = 'false'):
     #  Set up URLs to use for cancel and delete
-    shard = 'na1'
+    shard = 'na1' # make sure to modify this for the "shard" where your account lives.
     base_url = 'https://api.' + shard + '.echosign.com/api/rest/v5'
     agmts_url = base_url + '/agreements'
     cancelUrl = agmts_url + '/' + agreement_id + '/status'
